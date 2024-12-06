@@ -1,0 +1,25 @@
+.internships {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .internship-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .internship-card h3 {
+    color: #b21242;
+    margin-bottom: 10px;
+  }
+  
+  .internship-card p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  

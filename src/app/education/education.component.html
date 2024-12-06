@@ -1,0 +1,27 @@
+<div class="education">
+    <h2>{{ title }}</h2>
+    
+    <div class="education-cards">
+      <div *ngFor="let edu of educationDetails" class="card">
+        <div class="card-icon">
+          <i class="fas fa-graduation-cap"></i> <!-- Use an icon for the education -->
+        </div>
+        <div class="timeline">
+        <h3>{{ edu.degree }}</h3>
+        <p><strong>Institution:</strong> {{ edu.institution }}</p>
+        <p><strong>Year:</strong> {{ edu.year }}</p>
+        <p><strong>GPA:</strong> {{ edu.gpa }}</p>
+</div>
+      </div>
+    </div>
+    
+    <div class="additional-info">
+      <h3>Key Achievements</h3>
+      <ul>
+        <li>Completed multiple projects using Angular and Node.js.</li>
+        <li>Participated in hackathons and coding competitions.</li>
+        <li>Maintained a GPA above 8.0 throughout my studies.</li>
+      </ul>
+    </div>
+  </div>
+  

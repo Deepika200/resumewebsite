@@ -1,0 +1,50 @@
+.about-me {
+  padding: 30px;
+  background: linear-gradient(to bottom right, #f8f9fa, #e2e2e2);
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 1200px; /* Adjust the max width */
+  margin: 20px auto; 
+}
+
+.content-wrapper {
+  display: flex; /* Use flexbox for horizontal alignment */
+  align-items: flex-start; /* Align items at the start */
+}
+
+.description {
+  flex: 1; /* Take remaining space */
+  padding-right: 20px;
+  margin-left: 40px; /* Space between text and image */
+}
+
+.image-container {
+  flex: 0 0 150px; /* Fixed width for the image container */
+}
+
+.profile-image {
+  width: 400px; /* Responsive image size */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; 
+  /* border-radius: 15%; */
+  margin: auto;
+}
+
+.about-me h2 {
+  color: #b21242;
+  border-bottom: 3px solid #b21242;
+  padding-bottom: 10px;
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center; 
+}
+
+.about-me p {
+  color: #333; 
+  line-height: 1.6; 
+  margin-bottom: 15px; 
+}
+
+.about-me strong {
+  color: #b21242; 
+}

@@ -1,0 +1,180 @@
+{
+  "name": "Deepika Arora",
+  "description": "Aspiring Software Engineer passionate about tech.",
+  "image": "assets/images/your-image.jpg", 
+  "aboutMe": "B.Tech. Computer Science student at MRIIRS University...",
+  "skills": [
+    {
+      "name": "Python",
+      "image": "assets/images/python.png",
+      "description": "Python is a versatile programming language known for its readability and efficiency."
+    },
+    {
+      "name": "C",
+      "image": "assets/images/c.png",
+      "description": "C is a foundational programming language that has influenced many others."
+    },
+    {
+      "name": "HTML",
+      "image": "assets/images/html.png",
+      "description": "HTML (HyperText Markup Language) is the standard language for creating web pages."
+    },
+    {
+      "name": "CSS",
+      "image": "assets/images/css.jpeg",
+      "description": "CSS (Cascading Style Sheets) is used to style and layout web pages."
+    },
+    {
+      "name": "JavaScript",
+      "image": "assets/images/js.png",
+      "description": "JavaScript is a high-level programming language that enables interactive web pages."
+    },
+    {
+      "name": "TypeScript",
+      "image": "assets/images/tppesc.png",
+      "description": "TypeScript is a superset of JavaScript that adds static typing."
+    },
+    {
+      "name": "Node.js",
+      "image": "assets/images/node.png",
+      "description": "Node.js is a JavaScript runtime built on Chrome's V8 engine."
+    },
+    {
+      "name": "Angular",
+      "image": "assets/images/angular.jpeg",
+      "description": "Angular is a platform for building single-page client applications using HTML and TypeScript."
+    },
+    {
+      "name": "MongoDB",
+      "image": "assets/images/mdb.jpeg",
+      "description": "MongoDB is a NoSQL database that stores data in JSON-like documents."
+    },
+    {
+      "name": "Express",
+      "image": "assets/images/express.png",
+      "description": "Express is a minimal and flexible Node.js web application framework."
+    },
+    {
+      "name": "SQL",
+      "image": "assets/images/sql.png",
+      "description": "SQL (Structured Query Language) is the standard language for managing relational databases."
+    },
+    {
+      "name": "OOPs",
+      "description": "Object-Oriented Programming (OOP) is a programming paradigm based on 'objects'."
+    },
+    {
+      "name": "GIT",
+      "image": "assets/images/GIT.png",
+      "description": "Git is a DevOps tool used for source code management."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Medicinal Reminder System",
+      "description": "A system to remind users of their medication."
+    },
+    {
+      "name": "Double Authentication System",
+      "description": "Implemented a double authentication system for security."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science",
+      "institution": "Manav Rachna International Institute of Research and Studies",
+      "year": "Expected Graduation: 2024",
+      "gpa": "8.3"
+    },
+    {
+      "degree": "Senior Secondary",
+      "institution": "Faridabad Model School",
+      "year": "2020",
+      "gpa": "8.5"
+    },
+    {
+      "degree": "Secondary",
+      "institution": "Faridabad Model School",
+      "year": "2018",
+      "gpa": "9.0"
+    }
+  ],
+  "internships": [
+    {
+      "image": "assets/images/persistent.png",
+      "companyName": "Persistent Systems",
+      "aboutCompany": "Persistent Systems is a global services company that delivers digital business acceleration, enterprise modernization, and digital product engineering solutions.",
+      "role": "Software Engineer Intern",
+      "duration": "June 2024 - August 2024",
+      "work": "During my internship at Persistent Systems, I was responsible for developing and improving several web applications as part of a larger team. I collaborated closely with senior engineers to understand the requirements, develop solutions, and contribute to both frontend and backend aspects of the application.",
+      "tech": "I worked primarily with Angular for the frontend, developing dynamic components for user interactions. On the backend, I used Node.js and Express to build RESTful APIs and integrated MongoDB for efficient data management."
+    },
+    {
+      "image": "assets/images/escorts.png",
+      "companyName": "Escorts Ltd.",
+      "aboutCompany": "Escorts Limited is an Indian multinational company that operates in the sectors of agri-machinery, construction, material handling, and railway equipment.",
+      "role": "Software Engineer Intern",
+      "duration": "January 2023 - April 2023",
+      "work": "At Escorts, I contributed to their tractor trajectory project by developing a Python UI using PyQt5, which provided visual feedback for various tractor control systems.",
+      "tech": "The internship honed my skills in Python, specifically using PyQt5 for UI development."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Software Development: Requirements Gathering",
+      "image": "assets/images/3.jpeg"
+    },
+    {
+      "name": "CI & CD",
+      "image": "assets/images/4.jpeg"
+    },
+    {
+      "name": "Devops Basics Certification",
+      "image": "assets/images/5.jpeg"
+    },
+    {
+      "name": "Agile Fundamentals",
+      "image": "assets/images/1.jpeg"
+    },
+    {
+      "name": "Diversity, Equity and Inclusion",
+      "image": "assets/images/2.jpeg"
+    },
+    {
+      "name": "Java Script Certification",
+      "image": "assets/images/10.jpeg"
+    },
+    {
+      "name": "Object oriented Designing Certification",
+      "image": "assets/images/6.jpeg"
+    },
+    {
+      "name": "DevSecOps Certification",
+      "image": "assets/images/7.jpeg"
+    },
+    {
+      "name": "Oracle Certification",
+      "image": "assets/images/8.jpeg"
+    },
+    {
+      "name": "Communication Skills Certification",
+      "image": "assets/images/9.jpeg"
+    },
+    {
+      "name": "Powerful Speaking Certification",
+      "image": "assets/images/11.jpeg"
+    },
+    {
+      "name": "Presentation Skills Certification",
+      "image": "assets/images/12.jpeg"
+    },
+    {
+      "name": "Active Listening Certification",
+      "image": "assets/images/13.jpeg"
+    },
+    {
+      "name": "Email Etiquette Certification",
+      "image": "assets/images/14.jpeg"
+    }
+  ]
+}

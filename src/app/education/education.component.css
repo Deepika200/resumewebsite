@@ -1,0 +1,69 @@
+.education {
+    padding: 30px; /* Add padding around the content */
+    background: linear-gradient(to bottom right, #f8f9fa, #e2e2e2); /* Background gradient */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    max-width: 1200px; /* Limit width for better readability */
+    margin: 20px auto; /* Center the component */
+}
+
+.education h2 {
+    color: #b21242; /* Heading color */
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.education-cards {
+    display: flex; /* Use flexbox for card layout */
+    justify-content: space-between; /* Distribute space between cards */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line if necessary */
+}
+
+.card {
+    background-color: #fff; /* White background for cards */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Space inside cards */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for cards */
+    transition: transform 0.3s ease; /* Smooth transform effect */
+    flex: 0 1 30%; /* Allow cards to grow and shrink with a base width of 30% */
+    margin: 10px; /* Space around cards */
+}
+
+.card:hover {
+    transform: scale(1.03); /* Slight zoom on hover */
+}
+
+.card-icon {
+    position: absolute; /* Optional: Add an icon */
+    top: 15px;
+    left: 15px;
+    font-size: 24px; /* Size of the icon */
+    color: #b21242; /* Icon color */
+}
+
+.card h3 {
+    color: #b21242; /* Heading color for cards */
+    margin-bottom: 10px; /* Space below card title */
+}
+
+.card p {
+    margin: 5px 0; /* Space between paragraphs */
+    color: #333; /* Dark gray text */
+}
+
+.additional-info {
+    margin-top: 20px; /* Space above the additional info */
+}
+
+.additional-info h3 {
+    color: #b21242; /* Heading color for additional info */
+    margin-bottom: 10px; /* Space below the heading */
+    align-self: center;
+    justify-content: center;
+}
+
+.additional-info ul {
+    list-style-type: disc; /* Bulleted list */
+    padding-left: 20px; /* Space from the left */
+}

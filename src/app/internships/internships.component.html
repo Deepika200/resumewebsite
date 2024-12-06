@@ -1,0 +1,14 @@
+<div class="internships">
+    <h2>Internships</h2>
+    <div *ngFor="let internship of internships" class="internship-card">
+        <img [src]="internship.image" alt="{{ internship.companyName }} " class="skill-logo"  *ngIf="internship.image" />
+
+      <h3>{{ internship.companyName }}</h3>
+      <p><strong>About the company:</strong> {{ internship.aboutCompany }}</p>
+      <p><strong>Role:</strong> {{ internship.role }}</p>
+      <p><strong>Duration:</strong> {{ internship.duration }}</p>
+      <p><strong>Work Done:</strong> {{ internship.work }}</p>
+      <p><strong>Technologies Used:</strong> {{ internship.tech }}</p>
+    </div>
+  </div>
+  
